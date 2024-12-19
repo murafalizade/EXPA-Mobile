@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/user_group"
+        android:title="@string/people" />
+
+    <item
+        android:id="@+id/applicants"
+        android:icon="@drawable/screenshot_2024_12_17_at_00_54_50_removebg_preview"
+        android:title="@string/applicants" />
+
+    <item
+        android:id="@+id/opportunitiesFragment"
+        android:icon="@drawable/opportuniti"
+        android:title="@string/opportunities" />
+
+    <item
+        android:id="@+id/asdad"
+        android:icon="@drawable/home"
+        android:title="@string/profile" />
+</menu>

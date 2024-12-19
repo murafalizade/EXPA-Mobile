@@ -21,3 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "EXPA Mobile"
 include(":app")
+include(":feature")
+include(":feature:home")
+include(":feature:login")
+include(":data")
+include(":domain")

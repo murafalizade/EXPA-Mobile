@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_to_your_aiesec_account">Login to your AIESEC account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="continue_text">Continue</string>
+    <string name="having_trouble_signing_in_reset_password">Having trouble signing in? Reset Password</string>
+    <string name="expa">EXPA</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

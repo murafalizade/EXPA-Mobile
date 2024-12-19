@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.aiesec.main.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_applicants"
+            app:destination="@id/applicants" />
+        <action
+            android:id="@+id/action_homeFragment_to_opportunitiesFragment"
+            app:destination="@id/opportunitiesFragment" />
+        <deepLink
+            android:id="@+id/deepLinkHome"
+            app:uri="app://org.aiesec/home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/applicants"
+        android:name="org.aiesec.main.Applicants"
+        android:label="Applicants">
+        <action
+            android:id="@+id/action_applicants_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_applicants_to_opportunitiesFragment"
+            app:destination="@id/opportunitiesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/opportunitiesFragment"
+        android:name="org.aiesec.main.OpportunitiesFragment"
+        android:label="OpportunitiesFragment">
+        <action
+            android:id="@+id/action_opportunitiesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_opportunitiesFragment_to_applicants"
+            app:destination="@id/applicants" />
+    </fragment>
+</navigation>
